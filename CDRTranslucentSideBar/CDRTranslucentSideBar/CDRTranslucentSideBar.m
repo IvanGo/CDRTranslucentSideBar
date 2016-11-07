@@ -73,7 +73,7 @@
 		self.translucentView.contentMode = _showFromRight ? UIViewContentModeTopRight : UIViewContentModeTopLeft;
 		self.translucentView.clipsToBounds = YES;
 		self.translucentView.barStyle = UIBarStyleDefault;
-		[self.view.layer insertSublayer:self.translucentView.layer atIndex:0];
+		[self.view addSubview:self.translucentView];
 	}
 }
 
